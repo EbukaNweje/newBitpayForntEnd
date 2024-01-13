@@ -9,7 +9,7 @@ const sendLoginEmail = async () => {
   const data = {
     email: email.value,
   };
-  fetch('https://new-bit-pay-back-end-zefw.vercel.app/api/loginemailsand', {
+  fetch('https://newbitpaybackend.onrender.com/api/loginemailsand', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

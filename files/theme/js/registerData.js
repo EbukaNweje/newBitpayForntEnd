@@ -17,7 +17,7 @@ const sendSignUpEmail = async () => {
   const data = {
     email: email.value,
   };
-  fetch('https://new-bit-pay-back-end-zefw.vercel.app/api/signupemailsand', {
+  fetch('https://newbitpaybackend.onrender.com/api/signupemailsand', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
